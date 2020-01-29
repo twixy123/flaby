@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    box-sizing: border-box;
+    /* outline: 1px red solid;   */
+}
+
+/* ============================================================================
+                                    header
+============================================================================== */
+
+header {
+    width: 100%;
+    background: url('../images/header.png') 50% 50% / cover no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteiner {
+    margin: auto;
+    max-width: 1140px;
+    padding: 0 15px;
+    display: flex;
+}
+
+header .conteiner {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.head-header-block {
+    width: 100%;
+    min-height: 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.log-link {
+    display: block;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: auto;
+}
+
+.menu {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 115px;
+    height: 55px;
+    font-family: "Raleway-SemiBold";
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.list>a {
+    color: #ffffff;
+}
+
+.list:hover {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #479ee1;
+    opacity: 0.8;
+}
+
+.main-header-block {
+    padding-top: 265px;
+    padding-bottom: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.flat-free {
+    width: auto;
+}
+
+.flat-free>h1 {
+    color: rgb(255, 254, 254);
+    font-family: "Museo";
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+}
+
+.flat-free>p {
+    color: rgb(254, 254, 254);
+    font-family: Raleway-Medium;
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 70px;
+}
+
+.btn-block {
+    display: flex;
+    align-items: center;
+}
+
+.h-main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 80px;
+    box-shadow: 0 8px 11px rgba(54, 54, 54, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: none;
+    text-transform: capitalize
+}
+
+.g-btn {
+    color: #3e3e3e;
+    font-family: "Raleway-SemiBold";
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+.lm-btn {
+    margin-left: 30px;
+    font-family: "Raleway-SemiBold";
+    font-size: 20px;
+}
+
+.h-main-btn:hover {
+    cursor: pointer;
+    background-color: #4894ce;
+    opacity: 0.7;
+}
+
+/* ============================================================================
+                                    end header
+============================================================================== */
+
+
+/* ============================================================================
+                                    main
+============================================================================== */
+
+
+
+/* ============================================================================
+                                    section-1
+============================================================================== */
+
+
+.cont-ser {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 170px;
+}
+
+.our-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'RobotoSlab';
+}
+
+.our-services p {
+    font-size: 18px;
+    /* line-height: 24px; */
+    color: rgb(124, 124, 124);
+}
+
+.our-services h2 {
+    font-size: 24px;
+    color: rgb(73, 73, 73);
+    text-transform: uppercase;
+    margin-top: 19px;
+    margin-bottom: 23px;
+    text-shadow: 0 1px 1px rgb(0, 0, 0);
+}
+
+.blue-border {
+    width: 30px;
+    height: 2px;
+    background: rgb(46, 176, 236);
+}
+
+.our-services-img {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+}
+
+.services-img-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 264px;
+    width: 297px;
+    text-align: center;
+}
+
+.ser-img {
+    height: 107px;
+}
+
+.services-img-section h3 {
+    font-size: 18px;
+    font-family: 'Raleway-Bold';
+    color: rgb(73, 73, 73);
+}
+
+.services-img-section p {
+    font-size: 14px;
+    font-family: 'Raleway-Medium';
+    color: rgb(124, 124, 124);
+}
+
+
+/* ============================================================================
+                                    end section-1
+============================================================================== */
+
+
+
+/* ============================================================================
+                                    section-2
+============================================================================== */
+
+
+.section-2 {
+    background: url('../images/section-1-bg.png') 50% 50% / cover no-repeat;
+}
+
+.cont-cust {
+    justify-content: flex-end;
+}
+
+.unlim-custom {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    padding-top: 140px;
+    padding-bottom: 188px;
+}
+
+.cust-cont {
+    font-family: 'Raleway-SemiBold';
+}
+
+.cust-cont p {
+    font-size: 22px;
+    color: rgb(193, 193, 193);
+    margin-bottom: 28px;
+}
+
+.cust-cont h3 {
+    font-size: 32px;
+    color: rgb(73, 73, 73);
+}
+
+.cast-ul {
+    font-family: 'Raleway-Medium';
+    color: rgb(124, 124, 124);
+    padding-top: 35px;
+}
+
+.cast-ul p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 63px;
+}
+
+.cast-ul li {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.cust-btn {
+    margin-top: 45px;
+    font-family: 'Raleway-Bold';
+}
+
+.cust-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(102, 212, 244);
+    border-radius: 25px;
+}
